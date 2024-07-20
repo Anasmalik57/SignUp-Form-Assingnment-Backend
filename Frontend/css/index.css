@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap');
+body {
+  margin: 0;
+  width: 100vw;
+  height: calc(100vh - 64px);
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+  /* background-color: black; */
+  border-radius: 100%;
+}
+.container {
+  background-color: #fff;
+  width: 30vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 20px;
+  filter: drop-shadow(1px 20px 20px #858484);
+}
+.h1 {
+  font-size: 18px;
+  padding: 0px 0px;
+  font-family: "Amita", serif;
+  font-weight: 600;
+}
+
+#username {
+  font-size: 28px;
+}

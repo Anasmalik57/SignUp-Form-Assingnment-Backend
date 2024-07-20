@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    width: 100vw;
+    height: calc(100vh - 64px);
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: #fff;
+    width: 27vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    /* box-sizing: border-box; */
+    padding: 50px 40px;
+    border-radius: 8px;
+    filter: drop-shadow(1px 20px 20px #858484);
+    font-family: "Amita", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+input{
+    width: calc(100%-40px);
+    padding: 5px 20px 5px 5px;
+    border-radius: 3px;
+   border: 2px solid rgb(163, 163, 163);
+    margin: 5px 2px;
+    font-size: 20px;
+}
+input::placeholder{
+    font-size: 12px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#loginbtn{
+    background-color: #4697fb;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+}
+.links{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 20px;
+}
+a{
+    color: #8e8f92;
+    padding: 0px 20px;
+}
